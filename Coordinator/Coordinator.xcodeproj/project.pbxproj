@@ -9,21 +9,49 @@
 /* Begin PBXBuildFile section */
 		46F20C232BADDA4300C6D1BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F20C222BADDA4300C6D1BB /* AppDelegate.swift */; };
 		46F20C252BADDA4300C6D1BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F20C242BADDA4300C6D1BB /* SceneDelegate.swift */; };
-		46F20C272BADDA4300C6D1BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F20C262BADDA4300C6D1BB /* ViewController.swift */; };
-		46F20C2A2BADDA4300C6D1BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46F20C282BADDA4300C6D1BB /* Main.storyboard */; };
 		46F20C2C2BADDA4600C6D1BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46F20C2B2BADDA4600C6D1BB /* Assets.xcassets */; };
 		46F20C2F2BADDA4600C6D1BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46F20C2D2BADDA4600C6D1BB /* LaunchScreen.storyboard */; };
+		46F20C3F2BADDE4800C6D1BB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F20C3D2BADDE4800C6D1BB /* HomeViewController.swift */; };
+		46F20C402BADDE4800C6D1BB /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46F20C3E2BADDE4800C6D1BB /* HomeViewController.xib */; };
+		46F20C452BADDFF500C6D1BB /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F20C432BADDFF500C6D1BB /* ListViewController.swift */; };
+		46F20C462BADDFF500C6D1BB /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46F20C442BADDFF500C6D1BB /* ListViewController.xib */; };
+		46F20C4E2BADE20500C6D1BB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F20C4C2BADE20500C6D1BB /* DetailViewController.swift */; };
+		46F20C4F2BADE20500C6D1BB /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46F20C4D2BADE20500C6D1BB /* DetailViewController.xib */; };
+		46F20C572BADE40900C6D1BB /* CheckoutCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F20C552BADE40900C6D1BB /* CheckoutCartViewController.swift */; };
+		46F20C582BADE40900C6D1BB /* CheckoutCartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46F20C562BADE40900C6D1BB /* CheckoutCartViewController.xib */; };
+		46F20C5B2BADE42400C6D1BB /* CheckoutAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F20C592BADE42400C6D1BB /* CheckoutAddressViewController.swift */; };
+		46F20C5C2BADE42400C6D1BB /* CheckoutAddressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46F20C5A2BADE42400C6D1BB /* CheckoutAddressViewController.xib */; };
+		46F20C5F2BADE45300C6D1BB /* CheckoutPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F20C5D2BADE45300C6D1BB /* CheckoutPaymentViewController.swift */; };
+		46F20C602BADE45300C6D1BB /* CheckoutPaymentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46F20C5E2BADE45300C6D1BB /* CheckoutPaymentViewController.xib */; };
+		46F20C672BADE4B300C6D1BB /* CheckoutConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F20C652BADE4B300C6D1BB /* CheckoutConfirmViewController.swift */; };
+		46F20C682BADE4B300C6D1BB /* CheckoutConfirmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46F20C662BADE4B300C6D1BB /* CheckoutConfirmViewController.xib */; };
+		46F20C6B2BADE4C000C6D1BB /* CheckoutFInishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F20C692BADE4C000C6D1BB /* CheckoutFInishViewController.swift */; };
+		46F20C6C2BADE4C000C6D1BB /* CheckoutFInishViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46F20C6A2BADE4C000C6D1BB /* CheckoutFInishViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		46F20C1F2BADDA4300C6D1BB /* Coordinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coordinator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46F20C222BADDA4300C6D1BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46F20C242BADDA4300C6D1BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		46F20C262BADDA4300C6D1BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		46F20C292BADDA4300C6D1BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		46F20C2B2BADDA4600C6D1BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46F20C2E2BADDA4600C6D1BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46F20C302BADDA4600C6D1BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46F20C3D2BADDE4800C6D1BB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		46F20C3E2BADDE4800C6D1BB /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		46F20C432BADDFF500C6D1BB /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		46F20C442BADDFF500C6D1BB /* ListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
+		46F20C4C2BADE20500C6D1BB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		46F20C4D2BADE20500C6D1BB /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		46F20C552BADE40900C6D1BB /* CheckoutCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutCartViewController.swift; sourceTree = "<group>"; };
+		46F20C562BADE40900C6D1BB /* CheckoutCartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckoutCartViewController.xib; sourceTree = "<group>"; };
+		46F20C592BADE42400C6D1BB /* CheckoutAddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutAddressViewController.swift; sourceTree = "<group>"; };
+		46F20C5A2BADE42400C6D1BB /* CheckoutAddressViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckoutAddressViewController.xib; sourceTree = "<group>"; };
+		46F20C5D2BADE45300C6D1BB /* CheckoutPaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutPaymentViewController.swift; sourceTree = "<group>"; };
+		46F20C5E2BADE45300C6D1BB /* CheckoutPaymentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckoutPaymentViewController.xib; sourceTree = "<group>"; };
+		46F20C652BADE4B300C6D1BB /* CheckoutConfirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutConfirmViewController.swift; sourceTree = "<group>"; };
+		46F20C662BADE4B300C6D1BB /* CheckoutConfirmViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckoutConfirmViewController.xib; sourceTree = "<group>"; };
+		46F20C692BADE4C000C6D1BB /* CheckoutFInishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutFInishViewController.swift; sourceTree = "<group>"; };
+		46F20C6A2BADE4C000C6D1BB /* CheckoutFInishViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckoutFInishViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +84,141 @@
 		46F20C212BADDA4300C6D1BB /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
+				46F20C362BADDD7A00C6D1BB /* Commoms */,
+				46F20C372BADDD8600C6D1BB /* Features */,
+				46F20C382BADDD8C00C6D1BB /* Sources */,
+				46F20C392BADDD9200C6D1BB /* Resources */,
 				46F20C222BADDA4300C6D1BB /* AppDelegate.swift */,
 				46F20C242BADDA4300C6D1BB /* SceneDelegate.swift */,
-				46F20C262BADDA4300C6D1BB /* ViewController.swift */,
-				46F20C282BADDA4300C6D1BB /* Main.storyboard */,
 				46F20C2B2BADDA4600C6D1BB /* Assets.xcassets */,
 				46F20C2D2BADDA4600C6D1BB /* LaunchScreen.storyboard */,
 				46F20C302BADDA4600C6D1BB /* Info.plist */,
 			);
 			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		46F20C362BADDD7A00C6D1BB /* Commoms */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Commoms;
+			sourceTree = "<group>";
+		};
+		46F20C372BADDD8600C6D1BB /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				46F20C3A2BADDDCB00C6D1BB /* Home */,
+				46F20C3C2BADDDDB00C6D1BB /* Product */,
+				46F20C4B2BADE02300C6D1BB /* Checkout */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		46F20C382BADDD8C00C6D1BB /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		46F20C392BADDD9200C6D1BB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		46F20C3A2BADDDCB00C6D1BB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				46F20C3D2BADDE4800C6D1BB /* HomeViewController.swift */,
+				46F20C3E2BADDE4800C6D1BB /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		46F20C3C2BADDDDB00C6D1BB /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				46F20C412BADDFD700C6D1BB /* List */,
+				46F20C422BADDFDD00C6D1BB /* Detail */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		46F20C412BADDFD700C6D1BB /* List */ = {
+			isa = PBXGroup;
+			children = (
+				46F20C432BADDFF500C6D1BB /* ListViewController.swift */,
+				46F20C442BADDFF500C6D1BB /* ListViewController.xib */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		46F20C422BADDFDD00C6D1BB /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				46F20C4C2BADE20500C6D1BB /* DetailViewController.swift */,
+				46F20C4D2BADE20500C6D1BB /* DetailViewController.xib */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		46F20C4B2BADE02300C6D1BB /* Checkout */ = {
+			isa = PBXGroup;
+			children = (
+				46F20C502BADE34D00C6D1BB /* Cart */,
+				46F20C512BADE35300C6D1BB /* Address */,
+				46F20C522BADE36000C6D1BB /* Payment */,
+				46F20C532BADE36400C6D1BB /* Confirm */,
+				46F20C542BADE36A00C6D1BB /* Finish */,
+			);
+			path = Checkout;
+			sourceTree = "<group>";
+		};
+		46F20C502BADE34D00C6D1BB /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				46F20C552BADE40900C6D1BB /* CheckoutCartViewController.swift */,
+				46F20C562BADE40900C6D1BB /* CheckoutCartViewController.xib */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		46F20C512BADE35300C6D1BB /* Address */ = {
+			isa = PBXGroup;
+			children = (
+				46F20C592BADE42400C6D1BB /* CheckoutAddressViewController.swift */,
+				46F20C5A2BADE42400C6D1BB /* CheckoutAddressViewController.xib */,
+			);
+			path = Address;
+			sourceTree = "<group>";
+		};
+		46F20C522BADE36000C6D1BB /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				46F20C5D2BADE45300C6D1BB /* CheckoutPaymentViewController.swift */,
+				46F20C5E2BADE45300C6D1BB /* CheckoutPaymentViewController.xib */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
+		46F20C532BADE36400C6D1BB /* Confirm */ = {
+			isa = PBXGroup;
+			children = (
+				46F20C652BADE4B300C6D1BB /* CheckoutConfirmViewController.swift */,
+				46F20C662BADE4B300C6D1BB /* CheckoutConfirmViewController.xib */,
+			);
+			path = Confirm;
+			sourceTree = "<group>";
+		};
+		46F20C542BADE36A00C6D1BB /* Finish */ = {
+			isa = PBXGroup;
+			children = (
+				46F20C692BADE4C000C6D1BB /* CheckoutFInishViewController.swift */,
+				46F20C6A2BADE4C000C6D1BB /* CheckoutFInishViewController.xib */,
+			);
+			path = Finish;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +279,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46F20C5C2BADE42400C6D1BB /* CheckoutAddressViewController.xib in Resources */,
+				46F20C582BADE40900C6D1BB /* CheckoutCartViewController.xib in Resources */,
 				46F20C2F2BADDA4600C6D1BB /* LaunchScreen.storyboard in Resources */,
 				46F20C2C2BADDA4600C6D1BB /* Assets.xcassets in Resources */,
-				46F20C2A2BADDA4300C6D1BB /* Main.storyboard in Resources */,
+				46F20C4F2BADE20500C6D1BB /* DetailViewController.xib in Resources */,
+				46F20C462BADDFF500C6D1BB /* ListViewController.xib in Resources */,
+				46F20C6C2BADE4C000C6D1BB /* CheckoutFInishViewController.xib in Resources */,
+				46F20C402BADDE4800C6D1BB /* HomeViewController.xib in Resources */,
+				46F20C682BADE4B300C6D1BB /* CheckoutConfirmViewController.xib in Resources */,
+				46F20C602BADE45300C6D1BB /* CheckoutPaymentViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +299,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46F20C272BADDA4300C6D1BB /* ViewController.swift in Sources */,
 				46F20C232BADDA4300C6D1BB /* AppDelegate.swift in Sources */,
+				46F20C6B2BADE4C000C6D1BB /* CheckoutFInishViewController.swift in Sources */,
+				46F20C5F2BADE45300C6D1BB /* CheckoutPaymentViewController.swift in Sources */,
+				46F20C672BADE4B300C6D1BB /* CheckoutConfirmViewController.swift in Sources */,
+				46F20C5B2BADE42400C6D1BB /* CheckoutAddressViewController.swift in Sources */,
 				46F20C252BADDA4300C6D1BB /* SceneDelegate.swift in Sources */,
+				46F20C572BADE40900C6D1BB /* CheckoutCartViewController.swift in Sources */,
+				46F20C4E2BADE20500C6D1BB /* DetailViewController.swift in Sources */,
+				46F20C452BADDFF500C6D1BB /* ListViewController.swift in Sources */,
+				46F20C3F2BADDE4800C6D1BB /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		46F20C282BADDA4300C6D1BB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				46F20C292BADDA4300C6D1BB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		46F20C2D2BADDA4600C6D1BB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,9 +457,8 @@
 				INFOPLIST_FILE = Coordinator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +466,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lucas.Coordinator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -325,9 +487,8 @@
 				INFOPLIST_FILE = Coordinator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +496,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lucas.Coordinator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
