@@ -27,6 +27,9 @@
 		46F20C682BADE4B300C6D1BB /* CheckoutConfirmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46F20C662BADE4B300C6D1BB /* CheckoutConfirmViewController.xib */; };
 		46F20C6B2BADE4C000C6D1BB /* CheckoutFInishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F20C692BADE4C000C6D1BB /* CheckoutFInishViewController.swift */; };
 		46F20C6C2BADE4C000C6D1BB /* CheckoutFInishViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46F20C6A2BADE4C000C6D1BB /* CheckoutFInishViewController.xib */; };
+		46F20C6E2BADE79000C6D1BB /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F20C6D2BADE79000C6D1BB /* Coordinator.swift */; };
+		46F20C702BADE99200C6D1BB /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F20C6F2BADE99200C6D1BB /* HomeCoordinator.swift */; };
+		46F20C722BADEB4C00C6D1BB /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F20C712BADEB4C00C6D1BB /* AppCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +55,9 @@
 		46F20C662BADE4B300C6D1BB /* CheckoutConfirmViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckoutConfirmViewController.xib; sourceTree = "<group>"; };
 		46F20C692BADE4C000C6D1BB /* CheckoutFInishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutFInishViewController.swift; sourceTree = "<group>"; };
 		46F20C6A2BADE4C000C6D1BB /* CheckoutFInishViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckoutFInishViewController.xib; sourceTree = "<group>"; };
+		46F20C6D2BADE79000C6D1BB /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		46F20C6F2BADE99200C6D1BB /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		46F20C712BADEB4C00C6D1BB /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +94,6 @@
 				46F20C372BADDD8600C6D1BB /* Features */,
 				46F20C382BADDD8C00C6D1BB /* Sources */,
 				46F20C392BADDD9200C6D1BB /* Resources */,
-				46F20C222BADDA4300C6D1BB /* AppDelegate.swift */,
-				46F20C242BADDA4300C6D1BB /* SceneDelegate.swift */,
 				46F20C2B2BADDA4600C6D1BB /* Assets.xcassets */,
 				46F20C2D2BADDA4600C6D1BB /* LaunchScreen.storyboard */,
 				46F20C302BADDA4600C6D1BB /* Info.plist */,
@@ -100,6 +104,7 @@
 		46F20C362BADDD7A00C6D1BB /* Commoms */ = {
 			isa = PBXGroup;
 			children = (
+				46F20C242BADDA4300C6D1BB /* SceneDelegate.swift */,
 			);
 			path = Commoms;
 			sourceTree = "<group>";
@@ -117,6 +122,9 @@
 		46F20C382BADDD8C00C6D1BB /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				46F20C222BADDA4300C6D1BB /* AppDelegate.swift */,
+				46F20C6D2BADE79000C6D1BB /* Coordinator.swift */,
+				46F20C712BADEB4C00C6D1BB /* AppCoordinator.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -131,6 +139,7 @@
 		46F20C3A2BADDDCB00C6D1BB /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				46F20C6F2BADE99200C6D1BB /* HomeCoordinator.swift */,
 				46F20C3D2BADDE4800C6D1BB /* HomeViewController.swift */,
 				46F20C3E2BADDE4800C6D1BB /* HomeViewController.xib */,
 			);
@@ -301,10 +310,13 @@
 			files = (
 				46F20C232BADDA4300C6D1BB /* AppDelegate.swift in Sources */,
 				46F20C6B2BADE4C000C6D1BB /* CheckoutFInishViewController.swift in Sources */,
+				46F20C722BADEB4C00C6D1BB /* AppCoordinator.swift in Sources */,
 				46F20C5F2BADE45300C6D1BB /* CheckoutPaymentViewController.swift in Sources */,
 				46F20C672BADE4B300C6D1BB /* CheckoutConfirmViewController.swift in Sources */,
 				46F20C5B2BADE42400C6D1BB /* CheckoutAddressViewController.swift in Sources */,
+				46F20C702BADE99200C6D1BB /* HomeCoordinator.swift in Sources */,
 				46F20C252BADDA4300C6D1BB /* SceneDelegate.swift in Sources */,
+				46F20C6E2BADE79000C6D1BB /* Coordinator.swift in Sources */,
 				46F20C572BADE40900C6D1BB /* CheckoutCartViewController.swift in Sources */,
 				46F20C4E2BADE20500C6D1BB /* DetailViewController.swift in Sources */,
 				46F20C452BADDFF500C6D1BB /* ListViewController.swift in Sources */,

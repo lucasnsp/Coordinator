@@ -11,7 +11,7 @@ class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        setupUI()
     }
 
 
@@ -24,5 +24,9 @@ class HomeViewController: UIViewController {
     
     @IBAction func handlerButtonGreen(_ sender: Any) {
     }
-    
+
+    private func setupUI() {
+
+    }
+
 }
