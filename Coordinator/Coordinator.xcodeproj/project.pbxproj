@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		466A7B0B2BB38E4E00BF927F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A7B0A2BB38E4E00BF927F /* HomeViewModel.swift */; };
+		466A7B0F2BB38F6000BF927F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A7B0D2BB38F6000BF927F /* ProfileViewController.swift */; };
+		466A7B102BB38F6100BF927F /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 466A7B0E2BB38F6000BF927F /* ProfileViewController.xib */; };
 		46F20C232BADDA4300C6D1BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F20C222BADDA4300C6D1BB /* AppDelegate.swift */; };
 		46F20C252BADDA4300C6D1BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F20C242BADDA4300C6D1BB /* SceneDelegate.swift */; };
 		46F20C2C2BADDA4600C6D1BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46F20C2B2BADDA4600C6D1BB /* Assets.xcassets */; };
@@ -33,6 +36,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		466A7B0A2BB38E4E00BF927F /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		466A7B0D2BB38F6000BF927F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		466A7B0E2BB38F6000BF927F /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
 		46F20C1F2BADDA4300C6D1BB /* Coordinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coordinator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46F20C222BADDA4300C6D1BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46F20C242BADDA4300C6D1BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +77,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		466A7B0C2BB38F4D00BF927F /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				466A7B0D2BB38F6000BF927F /* ProfileViewController.swift */,
+				466A7B0E2BB38F6000BF927F /* ProfileViewController.xib */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		46F20C162BADDA4300C6D1BB = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +130,7 @@
 				46F20C3A2BADDDCB00C6D1BB /* Home */,
 				46F20C3C2BADDDDB00C6D1BB /* Product */,
 				46F20C4B2BADE02300C6D1BB /* Checkout */,
+				466A7B0C2BB38F4D00BF927F /* Profile */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -141,6 +157,7 @@
 			children = (
 				46F20C6F2BADE99200C6D1BB /* HomeCoordinator.swift */,
 				46F20C3D2BADDE4800C6D1BB /* HomeViewController.swift */,
+				466A7B0A2BB38E4E00BF927F /* HomeViewModel.swift */,
 				46F20C3E2BADDE4800C6D1BB /* HomeViewController.xib */,
 			);
 			path = Home;
@@ -293,6 +310,7 @@
 				46F20C2F2BADDA4600C6D1BB /* LaunchScreen.storyboard in Resources */,
 				46F20C2C2BADDA4600C6D1BB /* Assets.xcassets in Resources */,
 				46F20C4F2BADE20500C6D1BB /* DetailViewController.xib in Resources */,
+				466A7B102BB38F6100BF927F /* ProfileViewController.xib in Resources */,
 				46F20C462BADDFF500C6D1BB /* ListViewController.xib in Resources */,
 				46F20C6C2BADE4C000C6D1BB /* CheckoutFInishViewController.xib in Resources */,
 				46F20C402BADDE4800C6D1BB /* HomeViewController.xib in Resources */,
@@ -317,8 +335,10 @@
 				46F20C702BADE99200C6D1BB /* HomeCoordinator.swift in Sources */,
 				46F20C252BADDA4300C6D1BB /* SceneDelegate.swift in Sources */,
 				46F20C6E2BADE79000C6D1BB /* Coordinator.swift in Sources */,
+				466A7B0B2BB38E4E00BF927F /* HomeViewModel.swift in Sources */,
 				46F20C572BADE40900C6D1BB /* CheckoutCartViewController.swift in Sources */,
 				46F20C4E2BADE20500C6D1BB /* DetailViewController.swift in Sources */,
+				466A7B0F2BB38F6000BF927F /* ProfileViewController.swift in Sources */,
 				46F20C452BADDFF500C6D1BB /* ListViewController.swift in Sources */,
 				46F20C3F2BADDE4800C6D1BB /* HomeViewController.swift in Sources */,
 			);

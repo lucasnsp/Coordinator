@@ -19,8 +19,21 @@ class HomeCoordinator: Coordinator {
 
     func start() {
         let viewController = HomeViewController()
+        viewController.coordinator = self
         navigationController.pushViewController(viewController, animated: true)
     }
-    
+
+    func goToProfile() {
+        let viewController = ProfileViewController()
+        navigationController.pushViewController(viewController, animated: true)
+    }
+
+    func goToProduct() {
+
+    }
+
+    func goToCheckout() {
+
+    }
 
 }
