@@ -37,9 +37,11 @@ class HomeViewController: UIViewController {
     }
     
     @IBAction func handlerButtonBlue(_ sender: Any) {
+        coordinator?.goToProduct()
     }
     
     @IBAction func handlerButtonGreen(_ sender: Any) {
+        coordinator?.goToCheckout()
     }
     
     // MARK: Methods

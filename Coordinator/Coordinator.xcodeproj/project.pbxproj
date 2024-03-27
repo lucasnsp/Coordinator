@@ -10,6 +10,8 @@
 		466A7B0B2BB38E4E00BF927F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A7B0A2BB38E4E00BF927F /* HomeViewModel.swift */; };
 		466A7B0F2BB38F6000BF927F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A7B0D2BB38F6000BF927F /* ProfileViewController.swift */; };
 		466A7B102BB38F6100BF927F /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 466A7B0E2BB38F6000BF927F /* ProfileViewController.xib */; };
+		466A7B122BB390BB00BF927F /* ProductCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A7B112BB390BB00BF927F /* ProductCoordinator.swift */; };
+		466A7B142BB3962B00BF927F /* CheckoutCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A7B132BB3962B00BF927F /* CheckoutCoordinator.swift */; };
 		46F20C232BADDA4300C6D1BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F20C222BADDA4300C6D1BB /* AppDelegate.swift */; };
 		46F20C252BADDA4300C6D1BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F20C242BADDA4300C6D1BB /* SceneDelegate.swift */; };
 		46F20C2C2BADDA4600C6D1BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46F20C2B2BADDA4600C6D1BB /* Assets.xcassets */; };
@@ -39,6 +41,8 @@
 		466A7B0A2BB38E4E00BF927F /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		466A7B0D2BB38F6000BF927F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		466A7B0E2BB38F6000BF927F /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		466A7B112BB390BB00BF927F /* ProductCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCoordinator.swift; sourceTree = "<group>"; };
+		466A7B132BB3962B00BF927F /* CheckoutCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutCoordinator.swift; sourceTree = "<group>"; };
 		46F20C1F2BADDA4300C6D1BB /* Coordinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coordinator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46F20C222BADDA4300C6D1BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46F20C242BADDA4300C6D1BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -119,7 +123,6 @@
 		46F20C362BADDD7A00C6D1BB /* Commoms */ = {
 			isa = PBXGroup;
 			children = (
-				46F20C242BADDA4300C6D1BB /* SceneDelegate.swift */,
 			);
 			path = Commoms;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 		46F20C382BADDD8C00C6D1BB /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				46F20C242BADDA4300C6D1BB /* SceneDelegate.swift */,
 				46F20C222BADDA4300C6D1BB /* AppDelegate.swift */,
 				46F20C6D2BADE79000C6D1BB /* Coordinator.swift */,
 				46F20C712BADEB4C00C6D1BB /* AppCoordinator.swift */,
@@ -156,8 +160,8 @@
 			isa = PBXGroup;
 			children = (
 				46F20C6F2BADE99200C6D1BB /* HomeCoordinator.swift */,
-				46F20C3D2BADDE4800C6D1BB /* HomeViewController.swift */,
 				466A7B0A2BB38E4E00BF927F /* HomeViewModel.swift */,
+				46F20C3D2BADDE4800C6D1BB /* HomeViewController.swift */,
 				46F20C3E2BADDE4800C6D1BB /* HomeViewController.xib */,
 			);
 			path = Home;
@@ -166,6 +170,7 @@
 		46F20C3C2BADDDDB00C6D1BB /* Product */ = {
 			isa = PBXGroup;
 			children = (
+				466A7B112BB390BB00BF927F /* ProductCoordinator.swift */,
 				46F20C412BADDFD700C6D1BB /* List */,
 				46F20C422BADDFDD00C6D1BB /* Detail */,
 			);
@@ -193,6 +198,7 @@
 		46F20C4B2BADE02300C6D1BB /* Checkout */ = {
 			isa = PBXGroup;
 			children = (
+				466A7B132BB3962B00BF927F /* CheckoutCoordinator.swift */,
 				46F20C502BADE34D00C6D1BB /* Cart */,
 				46F20C512BADE35300C6D1BB /* Address */,
 				46F20C522BADE36000C6D1BB /* Payment */,
@@ -332,8 +338,10 @@
 				46F20C5F2BADE45300C6D1BB /* CheckoutPaymentViewController.swift in Sources */,
 				46F20C672BADE4B300C6D1BB /* CheckoutConfirmViewController.swift in Sources */,
 				46F20C5B2BADE42400C6D1BB /* CheckoutAddressViewController.swift in Sources */,
+				466A7B142BB3962B00BF927F /* CheckoutCoordinator.swift in Sources */,
 				46F20C702BADE99200C6D1BB /* HomeCoordinator.swift in Sources */,
 				46F20C252BADDA4300C6D1BB /* SceneDelegate.swift in Sources */,
+				466A7B122BB390BB00BF927F /* ProductCoordinator.swift in Sources */,
 				46F20C6E2BADE79000C6D1BB /* Coordinator.swift in Sources */,
 				466A7B0B2BB38E4E00BF927F /* HomeViewModel.swift in Sources */,
 				46F20C572BADE40900C6D1BB /* CheckoutCartViewController.swift in Sources */,

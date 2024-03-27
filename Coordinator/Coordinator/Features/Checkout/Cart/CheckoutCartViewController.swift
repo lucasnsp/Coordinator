@@ -9,6 +9,8 @@ import UIKit
 
 class CheckoutCartViewController: UIViewController {
 
+    var coordinator: CheckoutCoordinator?
+
     override func viewDidLoad() {
         super.viewDidLoad()
 

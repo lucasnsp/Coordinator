@@ -9,15 +9,16 @@ import UIKit
 
 class ListViewController: UIViewController {
 
+    var coordinator: ProductCoordinator?
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
-     
     }
 
 
     @IBAction func handlerButtonDetail(_ sender: Any) {
-
+        coordinator?.goToDetail()
     }
     
 }

@@ -39,6 +39,7 @@
                             </buttonConfiguration>
                             <connections>
                                 <action selector="HandlerButtonBlue:" destination="-1" eventType="touchUpInside" id="caB-Pu-tX4"/>
+                                <action selector="handlerButtonBlue:" destination="-1" eventType="touchUpInside" id="tTw-Kg-7dy"/>
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uFm-i6-62k">
