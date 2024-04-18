@@ -30,6 +30,9 @@
                     <buttonConfiguration key="configuration" style="filled" title="Button">
                         <color key="baseBackgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </buttonConfiguration>
+                    <connections>
+                        <action selector="handleButtonBackHome:" destination="-1" eventType="touchUpInside" id="SGv-o9-MyH"/>
+                    </connections>
                 </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>

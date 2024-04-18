@@ -9,11 +9,16 @@ import UIKit
 
 class CheckoutFInishViewController: UIViewController {
 
+    var coordinator: CheckoutCoordinator?
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func handleButtonBackHome(_ sender: Any) {
+        coordinator?.goToHome()
+    }
+    
 }

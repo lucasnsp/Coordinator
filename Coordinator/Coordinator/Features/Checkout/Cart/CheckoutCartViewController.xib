@@ -30,6 +30,9 @@
                     <buttonConfiguration key="configuration" style="filled" title="Address">
                         <color key="baseBackgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </buttonConfiguration>
+                    <connections>
+                        <action selector="HandleGoToAddress:" destination="-1" eventType="touchUpInside" id="fL8-ld-yOP"/>
+                    </connections>
                 </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>

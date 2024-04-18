@@ -18,7 +18,7 @@ class ListViewController: UIViewController {
 
 
     @IBAction func handlerButtonDetail(_ sender: Any) {
-        coordinator?.goToDetail()
+        coordinator?.goToDetail(productID: "Teste Produto")
     }
     
 }

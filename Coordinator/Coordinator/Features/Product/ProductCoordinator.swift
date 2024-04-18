@@ -23,8 +23,8 @@ class ProductCoordinator: Coordinator {
         navigationController.pushViewController(viewController, animated: true)
     }
 
-    func goToDetail() {
-        let viewController = DetailViewController()
+    func goToDetail(productID: String) {
+        let viewController = DetailViewController(productID: productID)
         navigationController.pushViewController(viewController, animated: true)
     }
 

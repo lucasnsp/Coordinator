@@ -9,12 +9,17 @@ import UIKit
 
 class CheckoutPaymentViewController: UIViewController {
 
+    var coordinator: CheckoutCoordinator?
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
 
     }
 
-
+    @IBAction func handleButtonConfirm(_ sender: Any) {
+        coordinator?.goToConfirm()
+    }
+    
 
 }

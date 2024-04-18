@@ -18,5 +18,8 @@ class CheckoutCartViewController: UIViewController {
     }
 
 
-
+    @IBAction func handleGoToAddress(_ sender: Any) {
+        coordinator?.goToAddress()
+    }
+    
 }

@@ -30,6 +30,9 @@
                     <buttonConfiguration key="configuration" style="filled" title="Payment">
                         <color key="baseBackgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </buttonConfiguration>
+                    <connections>
+                        <action selector="handleButtonPayment:" destination="-1" eventType="touchUpInside" id="frm-r4-VJ4"/>
+                    </connections>
                 </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>

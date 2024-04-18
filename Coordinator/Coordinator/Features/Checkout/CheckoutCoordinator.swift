@@ -22,6 +22,30 @@ class CheckoutCoordinator: Coordinator {
         viewController.coordinator = self
         navigationController.pushViewController(viewController, animated: true)
     }
+
+    func goToAddress() {
+        let viewController = CheckoutAddressViewController()
+        navigationController.pushViewController(viewController, animated: true)
+    }
     
+    func goToPayment() {
+        let viewController = CheckoutPaymentViewController()
+        navigationController.pushViewController(viewController, animated: true)
+    }
+
+    func goToConfirm() {
+        let viewController = CheckoutConfirmViewController()
+        navigationController.pushViewController(viewController, animated: true)
+    }
+
+    func goToFinish() {
+        let viewController = CheckoutFInishViewController()
+        navigationController.pushViewController(viewController, animated: true)
+    }
+
+    func goToHome() {
+
+    }
+
 
 }
