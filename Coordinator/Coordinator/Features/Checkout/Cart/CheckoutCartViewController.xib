@@ -24,26 +24,27 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ire-c6-0o2">
-                    <rect key="frame" x="30" y="783" width="333" height="35"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HrC-34-83a">
+                    <rect key="frame" x="30" y="723" width="333" height="35"/>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="filled" title="Address">
-                        <color key="baseBackgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="baseForegroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </buttonConfiguration>
                     <connections>
-                        <action selector="HandleGoToAddress:" destination="-1" eventType="touchUpInside" id="fL8-ld-yOP"/>
+                        <action selector="handleGoToAddress:" destination="-1" eventType="touchUpInside" id="hbb-ce-asT"/>
                     </connections>
                 </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="Ire-c6-0o2" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="3YY-p9-BNK"/>
                 <constraint firstItem="MaW-SI-fIj" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="89" id="3o0-Dj-kcw"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Ire-c6-0o2" secondAttribute="trailing" constant="30" id="izw-10-1ka"/>
+                <constraint firstItem="HrC-34-83a" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="KQP-4Y-GMS"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="HrC-34-83a" secondAttribute="trailing" constant="30" id="dpa-52-HLa"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="HrC-34-83a" secondAttribute="bottom" constant="60" id="t4u-Sd-mnP"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="MaW-SI-fIj" secondAttribute="trailing" constant="160.66999999999999" id="vdY-ZN-AOv"/>
                 <constraint firstItem="MaW-SI-fIj" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="160.66999999999999" id="w7i-eC-JeW"/>
-                <constraint firstItem="Ire-c6-0o2" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="wSV-5c-lhZ"/>
             </constraints>
             <point key="canvasLocation" x="131" y="-11"/>
         </view>
